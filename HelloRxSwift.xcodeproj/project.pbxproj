@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3218A3C59FEBFD72A7CBE354 /* Pods_HelloRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0E2978FF54EDA8F0D8B6EA /* Pods_HelloRxSwiftTests.framework */; };
+		53010107C7D68DDA60F6012D /* Pods_HelloRxSwift_HelloRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77CDF07A6C874FFAF85C6725 /* Pods_HelloRxSwift_HelloRxSwiftUITests.framework */; };
 		91B1972F2A2F832100075F04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1972E2A2F832100075F04 /* AppDelegate.swift */; };
 		91B197312A2F832100075F04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B197302A2F832100075F04 /* SceneDelegate.swift */; };
 		91B197332A2F832100075F04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B197322A2F832100075F04 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		91B197462A2F832300075F04 /* HelloRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B197452A2F832300075F04 /* HelloRxSwiftTests.swift */; };
 		91B197502A2F832300075F04 /* HelloRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B1974F2A2F832300075F04 /* HelloRxSwiftUITests.swift */; };
 		91B197522A2F832300075F04 /* HelloRxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B197512A2F832300075F04 /* HelloRxSwiftUITestsLaunchTests.swift */; };
+		93F7C5F5D7A724C4EBB3056E /* Pods_HelloRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4D84964C2F592E94107BB1 /* Pods_HelloRxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0E2978FF54EDA8F0D8B6EA /* Pods_HelloRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4862597720752F9D0E1D8C75 /* Pods-HelloRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwiftTests/Pods-HelloRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D274530101E474F521779C5 /* Pods-HelloRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwiftTests/Pods-HelloRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		77CDF07A6C874FFAF85C6725 /* Pods_HelloRxSwift_HelloRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift_HelloRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B1972B2A2F832100075F04 /* HelloRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B1972E2A2F832100075F04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91B197302A2F832100075F04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		91B1974B2A2F832300075F04 /* HelloRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B1974F2A2F832300075F04 /* HelloRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxSwiftUITests.swift; sourceTree = "<group>"; };
 		91B197512A2F832300075F04 /* HelloRxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91B1975E2A2F8DC200075F04 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A3C399094D3196EF1E6E8820 /* Pods-HelloRxSwift-HelloRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift-HelloRxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift-HelloRxSwiftUITests/Pods-HelloRxSwift-HelloRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A817B7F597DDFF59C8546CF9 /* Pods-HelloRxSwift-HelloRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift-HelloRxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift-HelloRxSwiftUITests/Pods-HelloRxSwift-HelloRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C337329E64C81362A5E54688 /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		CC4D84964C2F592E94107BB1 /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8414C937DAD9AF89AA797D /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F7C5F5D7A724C4EBB3056E /* Pods_HelloRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3218A3C59FEBFD72A7CBE354 /* Pods_HelloRxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +85,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53010107C7D68DDA60F6012D /* Pods_HelloRxSwift_HelloRxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012C2EF3362EB921EEBA468F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D84964C2F592E94107BB1 /* Pods_HelloRxSwift.framework */,
+				77CDF07A6C874FFAF85C6725 /* Pods_HelloRxSwift_HelloRxSwiftUITests.framework */,
+				3F0E2978FF54EDA8F0D8B6EA /* Pods_HelloRxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		91B197222A2F832100075F04 = {
 			isa = PBXGroup;
 			children = (
+				91B1975E2A2F8DC200075F04 /* RxSwiftPlayground.playground */,
 				91B1972D2A2F832100075F04 /* HelloRxSwift */,
 				91B197442A2F832300075F04 /* HelloRxSwiftTests */,
 				91B1974E2A2F832300075F04 /* HelloRxSwiftUITests */,
 				91B1972C2A2F832100075F04 /* Products */,
+				EB02F203DD1FCFCD1BF2EA62 /* Pods */,
+				012C2EF3362EB921EEBA468F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +156,19 @@
 			path = HelloRxSwiftUITests;
 			sourceTree = "<group>";
 		};
+		EB02F203DD1FCFCD1BF2EA62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8414C937DAD9AF89AA797D /* Pods-HelloRxSwift.debug.xcconfig */,
+				C337329E64C81362A5E54688 /* Pods-HelloRxSwift.release.xcconfig */,
+				A3C399094D3196EF1E6E8820 /* Pods-HelloRxSwift-HelloRxSwiftUITests.debug.xcconfig */,
+				A817B7F597DDFF59C8546CF9 /* Pods-HelloRxSwift-HelloRxSwiftUITests.release.xcconfig */,
+				4862597720752F9D0E1D8C75 /* Pods-HelloRxSwiftTests.debug.xcconfig */,
+				4D274530101E474F521779C5 /* Pods-HelloRxSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B197552A2F832300075F04 /* Build configuration list for PBXNativeTarget "HelloRxSwift" */;
 			buildPhases = (
+				BF2772BAB86C3AE2E0547A52 /* [CP] Check Pods Manifest.lock */,
 				91B197272A2F832100075F04 /* Sources */,
 				91B197282A2F832100075F04 /* Frameworks */,
 				91B197292A2F832100075F04 /* Resources */,
+				B9A2B5D8B908C881361E22D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B197582A2F832300075F04 /* Build configuration list for PBXNativeTarget "HelloRxSwiftTests" */;
 			buildPhases = (
+				26CA86390F64AC29B6FD5525 /* [CP] Check Pods Manifest.lock */,
 				91B1973D2A2F832300075F04 /* Sources */,
 				91B1973E2A2F832300075F04 /* Frameworks */,
 				91B1973F2A2F832300075F04 /* Resources */,
@@ -169,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91B1975B2A2F832300075F04 /* Build configuration list for PBXNativeTarget "HelloRxSwiftUITests" */;
 			buildPhases = (
+				F157931223E11DE981F58ECC /* [CP] Check Pods Manifest.lock */,
 				91B197472A2F832300075F04 /* Sources */,
 				91B197482A2F832300075F04 /* Frameworks */,
 				91B197492A2F832300075F04 /* Resources */,
+				A4653BB501E003F627CD77B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26CA86390F64AC29B6FD5525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4653BB501E003F627CD77B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift-HelloRxSwiftUITests/Pods-HelloRxSwift-HelloRxSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift-HelloRxSwiftUITests/Pods-HelloRxSwift-HelloRxSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift-HelloRxSwiftUITests/Pods-HelloRxSwift-HelloRxSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A2B5D8B908C881361E22D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2772BAB86C3AE2E0547A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F157931223E11DE981F58ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxSwift-HelloRxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91B197272A2F832100075F04 /* Sources */ = {
@@ -432,6 +582,7 @@
 		};
 		91B197562A2F832300075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8414C937DAD9AF89AA797D /* Pods-HelloRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +611,7 @@
 		};
 		91B197572A2F832300075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C337329E64C81362A5E54688 /* Pods-HelloRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +640,7 @@
 		};
 		91B197592A2F832300075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4862597720752F9D0E1D8C75 /* Pods-HelloRxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		91B1975A2A2F832300075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D274530101E474F521779C5 /* Pods-HelloRxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +682,7 @@
 		};
 		91B1975C2A2F832300075F04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C399094D3196EF1E6E8820 /* Pods-HelloRxSwift-HelloRxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +701,7 @@
 		};
 		91B1975D2A2F832300075F04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A817B7F597DDFF59C8546CF9 /* Pods-HelloRxSwift-HelloRxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
